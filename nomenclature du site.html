@@ -1,0 +1,79 @@
+STRUCTURE DU SITE
+</br></br>
+
+A éditer avec notepad++ pour plus de lisibilité, ou consulter le code source ctrl + U
+</br></br>
+
+
+Page ACCUEIL : Contenant:
+page_0: Accueil
+page_1: Lois à voter
+page_2: Actualité
+page_3: Forum
+page_4:
+page_5:
+page_6:
+page_7:
+Page ACCUEIL : Contenant:
+	{
+	NAVBAR: 
+	Page Actualité	
+	
+	
+	Page Forum			{ Contenant la liste des lois sous formes de liens situés dans :
+						Dossier sous_pages_forum/page_0.html
+						
+						}
+						
+	Page Lois à voter: { Contenant la liste des lois sous formes de liens situés dans :
+						Dossier sous_pages_lois_voter/page_0.html
+						
+						}
+	}
+
+STRUCTURE DOSSIER
+DOSSIER
+ 
+ Site Democratie Participative	{
+									Pages_Html		{dans Pages_Html
+														DOSSIER sous_pages_actualite	{
+																							& page_0
+																							& page_1
+																							& page_2
+																							& page_3
+																							& page_4
+																							& page_5
+																						}
+																						
+														DOSSIER sous_pages_	forum		{
+																							& page_0
+																							& page_1
+																							& page_2
+																							& page_3
+																							& page_4
+																							& page_5
+														}			
+														
+														DOSSIER sous_pages_	lois_voter	{
+																							& page_0
+																							& page_1
+																							& page_2
+																							& page_3
+																							& page_4
+																							& page_5
+																						}				
+																						
+																			
+														democratie_accueil  {
+																				
+																			}
+														& forum
+														& actualite
+														& lois_a_voter
+														& unknown
+														& unknown
+														& unknown
+													}
+									& Idées lois 
+									& etc stuff ...
+								}

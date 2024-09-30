@@ -1,0 +1,90 @@
+/*
+.navbar
+{
+width: 140px;
+height: 60px;
+border: 2px solid red;
+text-align: justify;
+padding : 5px;
+font-family: Arial;
+font-size: 16px ;
+background-color: rgb(224,168,71);
+float: left;
+}
+*/
+
+body
+{
+    background-color: rgb(243,255,189);
+	/*background: url('images/fond_jaune.png');*/
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #181818;
+	/*rgb(243,255,189);VERSION ?*/
+}
+
+#bloc_page
+{
+	
+}
+#conteneur
+{
+
+	height: 100px;
+	margin: 10px;
+	padding : 5px;
+    display: flex;
+	flex-direction: row;
+	/*border: 7px solid #DBA86F;*/
+	background-color: #B2DBBF;/*#B2DBBF*/
+	/* 	background-color: rgba(112,193,179);  VERSION 0.0 */
+}
+
+.element
+{
+	width: 230px;
+	height: 45px;
+	border: 1px solid blue;
+	margin: 5px;
+	padding : 5px;
+	background-color: #70C1B3;
+	text-align: center;
+	/*background-color: rgba(224,168,71); VERSION 0.0 */
+	
+}
+.element a
+{
+	text-align: center;
+	background-color: ##47FFC1; /*#47FFC1*/
+	text-decoration: none;
+	padding: 2px;
+	border: 1px solid #DBA86F;
+	color: #FF6342;
+	font-weight: 800;
+	font-variant: small-caps;
+	/*background-color: rgba(224,168,71); VERSION 0.0 */
+	
+}
+.a
+{
+	text-decoration: none;
+}
+/*
+
+.element:nth-child(2) /* On prend le deuxième bloc élément 
+{
+    background-color: blue;
+    /*align-self: flex-end; Seul ce bloc sera aligné à la fin 
+	border: 10px solid blue;
+}
+*/
+
+h1
+{
+    text-align: center ;
+	text-color
+}
+
+h2
+{
+    text-align: center ;
+}

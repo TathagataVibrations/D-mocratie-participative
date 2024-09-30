@@ -1,0 +1,2 @@
+Il faut changer l'url dans le menu en haut href "accueil  en -> accueil_with_flexbox_version4
+dans toutes les pages 1 2 3 etc..
